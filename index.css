@@ -37,9 +37,30 @@ section.one {
 }
 nav {
   height: 60px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
 }
 .left svg {
   width: 124px;
   height: 54px;
   color: white;
+}
+.right a {
+  padding: 4px 16px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  cursor: grab;
+}
+.right span {
+  color: white;
+  font-size: 30px;
+  display: none;
+}
+.icons .material-icons {
+  color: white;
+  font-size: 25px;
+  padding: 4px 9px;
 }
