@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  user-select: none;
 }
 body {
   font-family: "Roboto", serif;
@@ -33,6 +34,7 @@ section.one {
   width: 100%;
   max-width: 100%;
   height: 100vh;
+  padding: 15px;
 }
 nav {
   display: flex;
@@ -54,6 +56,12 @@ nav {
   color: white;
   font-size: 15px;
   cursor: grab;
+  transition: all 0.3s ease-in-out;
+}
+.right a:hover {
+  font-size: 17px;
+  color: red;
+  font-weight: 500;
 }
 #menu {
   color: white;
@@ -64,4 +72,38 @@ nav {
   color: white;
   font-size: 25px;
   padding: 4px 9px;
+  transition: all 0.3s ease-in-out;
+}
+.icons .material-icons:hover {
+  color: red;
+}
+.mid-top {
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.mid-top h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  color: white;
+}
+.button-container {
+  max-width: 100%;
+  inline-size: auto;
+}
+.white-btn {
+  border-radius: 4px;
+  border: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 12px 34px;
+  margin: 4px;
+  text-align: center;
+  color: #393c41;
+  cursor: grab;
+  transition: all 0.3s ease-in-out;
+}
+.white-btn:hover {
+  font-size: 16px;
 }

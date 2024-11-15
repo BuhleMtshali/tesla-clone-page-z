@@ -33,6 +33,12 @@
     display: block;
     text-align: left;
     position: relative;
-    top: 20px;
+    top: 30px;
+  }
+  .mid-top {
+    top: 10px;
+  }
+  .mid-top h1 {
+    font-size: 2.5rem;
   }
 }
