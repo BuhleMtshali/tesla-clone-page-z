@@ -1,11 +1,17 @@
 @media screen and (max-width: 768px) {
   nav {
-    padding-top: 10px;
     flex-direction: row;
+    background-color: white;
+  }
+  section.one {
+    padding: 0;
   }
   .left {
     position: relative;
     top: 0;
+  }
+  .left svg {
+    color: #393c41;
   }
   .icons {
     display: none;
@@ -27,13 +33,23 @@
   #menu {
     display: block;
     margin-bottom: 16px;
+    color: #393c41;
   }
+  .left.responsive svg {
+    color: black;
+  }
+
   .right.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: right;
     position: relative;
     top: 30px;
+    color: #393c41;
+  }
+
+  .right.responsive #menu {
+    color: #393c41;
   }
   .mid-top {
     top: 10px;
