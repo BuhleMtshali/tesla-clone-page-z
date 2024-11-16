@@ -10,9 +10,7 @@
     position: relative;
     top: 0;
   }
-  .left svg {
-    color: #393c41;
-  }
+
   .icons {
     display: none;
   }
@@ -38,7 +36,9 @@
   .left.responsive svg {
     color: black;
   }
-
+  .left svg {
+    color: #393c41;
+  }
   .right.responsive a {
     float: none;
     display: block;

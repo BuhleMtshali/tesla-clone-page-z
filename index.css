@@ -41,6 +41,7 @@ nav {
   align-items: center;
   align-content: center;
   justify-content: space-between;
+  height: auto;
 }
 .left svg {
   width: 124px;
