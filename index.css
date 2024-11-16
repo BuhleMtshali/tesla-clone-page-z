@@ -398,8 +398,15 @@ footer {
 .bottom-footer {
   width: 100%;
   height: 70px;
+  margin: 0 auto;
+  text-align: center;
 }
 .underline {
   text-decoration: underline;
   font-weight: bold;
+  text-align: center;
+}
+small {
+  padding: 8px;
+  color: #5c5e62;
 }
