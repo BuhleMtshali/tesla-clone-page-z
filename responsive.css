@@ -58,4 +58,11 @@
   .mid-top h1 {
     font-size: 2.5rem;
   }
+  .top-footer {
+    width: 352px;
+  }
+  .bottom-footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
