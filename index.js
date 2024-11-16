@@ -27,7 +27,7 @@ function changeBackgroundImage() {
 
     //toggling between images
     currentIndex = (currentIndex + 1) % images.length;
-  }, 40000);
+  }, 6000);
 }
 
 //calling the function
