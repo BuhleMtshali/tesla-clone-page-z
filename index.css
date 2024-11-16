@@ -277,3 +277,26 @@ section.six {
   background-color: #393c41;
   color: #111111;
 }
+section.seven {
+  background-image: url("images/tesla-section-7-bg.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.large-h3-five {
+  font-size: 2.1rem;
+  margin-top: 5px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+}
