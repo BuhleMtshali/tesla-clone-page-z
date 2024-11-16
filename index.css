@@ -379,11 +379,27 @@ section.eleven {
   z-index: 1;
   color: white;
 }
-.top-footer {
+footer {
   width: 100%;
+}
+.top-footer {
+  width: 500px;
   height: 474px;
+  margin: 30px auto;
+  text-align: center;
+}
+.top-footer p {
+  margin: 0;
+  padding-bottom: 14px;
+  color: #5c5e62;
+  font-size: 12px;
+  line-height: 18px;
 }
 .bottom-footer {
   width: 100%;
   height: 70px;
+}
+.underline {
+  text-decoration: underline;
+  font-weight: bold;
 }
