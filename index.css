@@ -35,6 +35,7 @@ section.one {
   max-width: 100%;
   height: 100vh;
   padding: 15px;
+  transition: all 0.3s ease-in-out;
 }
 nav {
   display: flex;
@@ -108,3 +109,4 @@ nav {
 .white-btn:hover {
   font-size: 16px;
 }
+/* second page */
