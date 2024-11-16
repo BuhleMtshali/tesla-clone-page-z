@@ -256,5 +256,24 @@ section.six {
 .six svg {
   width: 299px;
   height: 85px;
-  margin-top: 80px;
+  margin-top: 50px;
+}
+.darK-btn-container {
+  margin-bottom: 70px;
+}
+.dark {
+  background-color: #111111;
+  color: #a2a3a5;
+  font-size: 14px;
+  padding: 8px 19px;
+  width: 130px;
+  margin-left: 5px;
+  border: transparent;
+  cursor: grab;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.dark:hover {
+  background-color: #393c41;
+  color: #111111;
 }
