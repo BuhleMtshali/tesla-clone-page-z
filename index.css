@@ -180,6 +180,18 @@ section.two {
 .white-button:hover {
   font-size: 16px;
 }
+.large-h2-four {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.large-h3-four {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+}
 section.three {
   background-image: url("images/tesla-section-3-bg.avif");
   background-position: center;
