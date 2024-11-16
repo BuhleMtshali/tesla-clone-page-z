@@ -147,6 +147,8 @@ section.two {
 .blue-white-container {
   margin-bottom: 50px;
   width: 100%;
+  max-width: 100%;
+  inline-size: auto;
 }
 .blue-btn {
   padding: 10px 34px;
@@ -156,24 +158,55 @@ section.two {
   color: white;
   border: transparent;
   margin-right: 5px;
-  width: 264px;
   text-align: center;
   cursor: grab;
   transition: all 0.3s ease-in-out;
+  width: 160px;
 }
 .white-button {
   padding: 10px 34px;
   border: transparent;
   border-radius: 4px;
   font-size: 14px;
-  width: 264px;
+  color: #393c41;
   text-align: center;
   cursor: grab;
   transition: all 0.3s ease-in-out;
+  width: 160px;
 }
 .blue-btn:hover {
   font-size: 16px;
 }
 .white-button:hover {
   font-size: 16px;
+}
+section.three {
+  background-image: url("images/tesla-section-3-bg.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section.four {
+  background-image: url("images/tesla-section-4-bg.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
